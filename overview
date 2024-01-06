@@ -1,0 +1,9 @@
+An overview for reference.
+
+With R, develop a secure file encryption and decryption tool with a simple gui that will allow a user to encrypt and decrypt files securely.
+
+Will implement a symmetric-key encryption algorithm, AES. 
+
+Features:
+
+1. File Encryption
