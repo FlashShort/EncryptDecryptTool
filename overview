@@ -7,3 +7,47 @@ Will implement a symmetric-key encryption algorithm, AES.
 Features:
 
 1. File Encryption
+
+Users can select a file to encrypt using an encryption key.
+Key management and secure handle.
+
+2. File Decryption
+
+Users can decrypt the encrypted file using the key.
+Process is secure/reliable.
+
+3. Key Generation
+
+Users can generate encryption key/s of specified lengths.
+Implement random number generation algorithm for key generation.
+
+4. Password-Based Encryption
+
+Use of passphrase for encryp/decryption (optional for user).
+Enforce strong and complex policy.
+
+5. Secure File Deletion
+
+Secure deletion, sensitive data is properly erased.
+
+5. GUI
+
+Must be clean and simple.
+
+6. Documentation
+
+How to use, examples, information on encryption and the best way to use.
+
+Considerations:
+
+-Error handling.
+-Sensitive information is never stored in plain text, use a one way hash.
+-File integrity checks to verify authenticity. HMAC? Something else?
+-Use KDFs to protect against brute-force.
+-Use a limiter for passphrase.
+-IVs for each encryption operation to prevent patterns in the ciphertext.
+
+Further Thought:
+
+-User activity logging....
+
